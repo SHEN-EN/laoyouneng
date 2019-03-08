@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>帮帮我</title>
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/mui.picker.min.css">
+    <link rel="stylesheet" href="css/style.css?4">
+    <script src="js/jquery.js"></script>
+    <script src="js/mui.min.js"></script>
+    <script src="js/mui.picker.min.js"></script>
+    <script src="js/getwechat.js?4"></script>
+    <script src="js/order_man.js?19"></script>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="main.html"></a>
+        <h1 class="mui-title">帮帮我</h1>
+    </header>
+    <div class="mui-content" style="top: 0;">
+        <div class="mark">
+            <p>*接受志愿服务者的权利义务：</p>
+            <ul>
+                <li>（1）尊重志愿者的人格尊严，就志愿服务项目对健康及安全构成的风险以及防范这些风险的措施作出必要的告知和说明</li>
+                <li>（2）有条件和能力的，应当为志愿者提供必要的物质保障及安全、卫生条件；</li>
+                <li>（3）有权对志愿者服务质量进行评价，向平台提出合适的意见、建议。</li>
+            </ul>
+            <p>*免责声明</p>
+            <ul>
+                <li>用户自行发布的需求服务或委托发布的需求服务，在服务或被服务过程中发生的交通费用、服务纠纷、意外事故、财务损失、人身伤害等由双方自行解决，本平台不承担任何责任。</li>
+            </ul>
+        </div>
+        <form id='login-form' class="mui-input-group">
+            <div class="mui-input-row">
+                <label>姓名</label>
+                <input id='name' type="text" class="mui-input-clear mui-input" placeholder="请输入姓名" autocomplete="on">
+            </div>
+            <div class="mui-input-row">
+                <label>手机号</label>
+                <input id='phone' type="phone" class="mui-input-clear mui-input" placeholder="请输入电话" autocomplete="on">
+            </div>
+            <div class="mui-input-row">
+                <label>求助内容</label>
+                <input id='help' type="text" class="mui-input-clear mui-input" placeholder="请输入求助内容">
+            </div>
+            <div class="mui-input-row">
+                <label>情况说明</label>
+                <input id='help_note' type="text" class="mui-input-clear mui-input" placeholder="求助具体内容">
+            </div>
+            <div class="mui-input-row">
+                <label>开始时间</label>
+                <input id='help_time_start' type="text" class="mui-input-clear mui-input" placeholder="请选择开始时间">
+            </div>
+            <div class="mui-input-row">
+                <label>结束时间</label>
+                <input id='help_time_over' type="text" class="mui-input-clear mui-input" placeholder="请选择结束时间">
+            </div>
+            <div class="mui-input-row">
+                <label>所在社区</label>
+                <input id='address_commodity' type="text" class="mui-input-clear mui-input" placeholder="请输入所在社区(务必填写社区二字)"
+                    autocomplete="on">
+            </div>
+            <div class="mui-input-row">
+                <label>所在小区</label>
+                <input id='address_area' type="text" class="mui-input-clear mui-input" placeholder="请输入所在小区"
+                    autocomplete="on">
+            </div>
+            <div class="mui-input-row">
+                <label>现在住址</label>
+                <input id='address' type="text" class="mui-input-clear mui-input" placeholder="请输入现在住址" autocomplete="on">
+            </div>
+            <div class="mui-input-row mui-checkbox mui-left">
+                <label style="width:100%;color:#7f7b7b;font-size:.14rem">如无人接此需求，过期是否继续等待</label>
+                <input name="checkbox" value="Item 1" type="checkbox" id="wait">
+            </div>
+        </form>
+        <div class="mui-content-padded">
+            <button id='demand' class="mui-btn mui-btn-block mui-btn-primary">发布需求</button>
+            <div class="link-area"><a id='list' href="have_requirement.html">查看已发布需求</a><span class="spliter">|</span>
+                <a id='admin' href="admin.html">我是管理员</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

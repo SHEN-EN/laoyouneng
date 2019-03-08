@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>帮助详情</title>
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" href="css/style.css?1">
+    <script src="js/jquery.js"></script>
+    <script src="js/mui.min.js"></script>
+    <script src="js/getwechat.js?4"></script>
+    <script src="js/orderMan_detailed.js?5"></script>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" href="main.html"></a>
+        <h1 class="mui-title">帮助详情</h1>
+    </header>
+    <div class="mark">
+        <p>*志愿者的权利义务</p>
+        <ul>
+            <li>（1）履行志愿服务承诺或者协议约定的义务，完成志愿服务工作</li>
+            <li>（2）保护在参与志愿服务活动过程中获悉的个人隐私、商业秘密或者其他依法受保护的信息</li>
+            <li>（3）不得向接受志愿服务的组织或者个人索取、变相索取报酬</li>
+        </ul>
+        <p>*免责声明</p>
+        <ul>
+            <li>用户自行发布的需求服务或委托发布的需求服务，在服务或被服务过程中发生的交通费用、服务纠纷、意外事故、财务损失、人身伤害等由双方自行解决，本平台不承担任何责任</li>
+        </ul>
+    </div>
+    <div class="mui-content" style="top: 0;">
+        <form id='login-form' class="mui-input-group">
+            <div class="mui-input-row">
+                <label>姓名</label>
+                <input id='name' type="text" class="mui-input-clear mui-input" placeholder="姓名" disabled="disabled">
+            </div>
+            <div class="mui-input-row">
+                <label>求助内容</label>
+                <input id='help' type="text" class="mui-input-clear mui-input" placeholder="求助内容" disabled="disabled">
+            </div>
+            <div class="mui-input-row">
+                <label>开始时间</label>
+                <input id='help_time_start' type="text" class="mui-input-clear mui-input" placeholder="开始时间" disabled="disabled">
+            </div>
+            <div class="mui-input-row">
+                <label>结束时间</label>
+                <input id='help_time_over' type="text" class="mui-input-clear mui-input" placeholder="结束时间" disabled="disabled">
+            </div>
+            <div class="mui-input-row">
+                <label>所在小区</label>
+                <input id='address' type="text" class="mui-input-clear mui-input" placeholder="现在住址" disabled="disabled">
+            </div>
+        </form>
+        <div class="mui-content-padded">
+            <button id='to_help' class="mui-btn mui-btn-block mui-btn-primary">去帮忙</button>
+        </div>
+    </div>
+</body>
+
+</html>

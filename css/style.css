@@ -1,0 +1,231 @@
+body,
+html {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.area {
+    margin: 20px auto 0px auto;
+}
+
+.mui-input-group:first-child {
+    margin-top: 20px;
+}
+
+.mui-input-group label {
+    width: 34%;
+    font-size: .15rem;
+}
+
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+    width: 66%;
+
+}
+
+.mui-checkbox input[type=checkbox],
+.mui-radio input[type=radio] {
+    top: 6px;
+}
+
+.mui-content-padded {
+    margin-top: .5rem;
+}
+
+.mui-btn {
+    padding: 10px;
+}
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+    margin-top: 1px;
+    line-height: 35px;
+    font-size: .14rem;
+}
+
+.link-area {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    font-size: .14rem;
+}
+
+.spliter {
+    color: #bbb;
+    padding: 0px 8px;
+}
+
+.oauth-area {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.oauth-area .oauth-btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0px 20px;
+    /*-webkit-filter: grayscale(100%); */
+    border: solid 1px #ddd;
+    border-radius: 25px;
+}
+
+.oauth-area .oauth-btn:active {
+    border: solid 1px #aaa;
+}
+
+.oauth-area .oauth-btn.disabled {
+    background-color: #ddd;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 15%;
+}
+
+.mui-content {
+    position: absolute;
+    top: 40%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-size: .16rem;
+    top: 0;
+}
+
+.main_title {
+    text-align: center;
+    margin-top: .2rem;
+}
+
+.main_Inf {
+    text-align: center;
+    margin-top: .3rem;
+}
+
+.main_Inf button {
+    width: 40%;
+    height: 1.18rem;
+    border-radius: .83rem;
+}
+
+.main_ranking {
+    font-size: .14rem;
+}
+
+.main_ranking img {
+    width: .5rem;
+    height: .5rem;
+}
+/**********选项卡************/
+.mui-row.mui-fullscreen>[class*="mui-col-"] {
+    height: 100%;
+}
+
+.mui-col-xs-3,
+.mui-control-content {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.mui-segmented-control .mui-control-item {
+    line-height: 50px;
+    width: 100%;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+    background-color: #fff;
+}
+
+/*************柱状**********/
+.chart {
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h5 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+h5:first-child {
+    margin-top: .15rem;
+}
+
+.user-img img {
+    width: .8rem;
+    height: .8rem;
+    border-radius: 10px;
+}
+
+.user-img {
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:.25rem;
+    z-index: 2;
+}
+#mark{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 1px;
+    box-shadow: darkgrey 10px 10px 30px 5px;
+    display:none;
+    font-size: 0.16rem;
+    line-height: 1.5;
+    font-family: 楷体;
+}
+.mui-input-row input {
+    user-select: text !important;
+    -webkit-user-select: text;
+}
+#admin{
+    display: none;
+}
+#list{
+    font-size: .16rem
+}
+.mark{
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 1px;
+    box-shadow: darkgrey 10px 10px 30px 5px;
+    display:none;
+    font-size: 0.14rem;
+    font-family: 楷体;
+}
